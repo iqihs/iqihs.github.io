@@ -44,6 +44,21 @@ https://zhuanlan.zhihu.com/p/72907840
 * 知乎:[霸都丶傲天](https://www.zhihu.com/people/AJLoveChina)
 * Github:[霸都丶傲天](https://github.com/ajlovechina)
 
+
+<html>
+  <head></head>
+  <body>
+    <div>hello!</div>
+    <div id="time"></div>
+  </body>
+<script>
+  (function(){
+     var time = (new Date()).toLocaleString();
+  document.getElementById("time").innerHTML = time
+   })();
+</script>
+</html>
+
 ## 链接
 * [第一期:爱情树 🌴将相爱的时刻永远珍藏 （微信，QQ可完美查看）](https://github.com/AJLoveChina/LoveTree)
 * [第二期: :cake:改改数据,为心爱的人做一个超具创意的网页生日祝福吧~ (生日快乐)](https://github.com/AJLoveChina/birthday)
