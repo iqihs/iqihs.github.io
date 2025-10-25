@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WoNiu NAS</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nprogress.css">
+</head>
+<body>
+
+  <div id="desktop">
+    <div class="lantern"></div>
+    <ul class="list">
+      <li data-href="http://nas.iqihs.cc:56789"><img src="images/NAS.png" alt="MY NAS"><span>My NAS</span></li>
+      <li data-href="./video"><img src="images/video.png" alt="MY Video"><span>Video</span></li>
+      <li data-href="./photo"><img src="images/photo.png" alt="My Photo"><span>Photo</span></li>
+      <li data-href="./Music"><img src="images/music.png" alt="My Music"><span>Music</span></li>
+      <li data-href="./cloud"><img src="images/cloud.png" alt="My Cloud"><span>Cloud</span></li>
+	  <li data-href="http://nas.iqihs.cc:1989/"><img src="images/router.png" alt="MY Router"><span>Router</span></li> 	  
+      <li data-href="http://nas.iqihs.cc:9091/transmission/web/"><img src="images/trans.png" alt="Transmission"><span>Transmission</span></li>
+      <li data-href="./aria2"><img src="images/aria2.png" alt="Aria2"><span>Aria2</span></li>
+	  <li data-href="http://yuancheng.xunlei.com/"><img src="images/thunder.png" alt="Thunder"><span>Thunder</span></li>
+	  <li data-event="about"><img src="images/tip.png" alt="#"><span>About me</span></li>	  
+    </ul>
+    <div class="date">
+      <div class="date-wrapper">
+        <div class="mask"></div>
+        <div class="left"></div>
+        <div class="right">
+          <p class="time"></p>
+          <p class="day"></p>
+          <p class="week"></p>
+        </div>
+      </div>
+      <div class="close"></div>
+    </div>
+    <div class="about">
+      <ul>
+        <li>IQIHS</li>
+        <li>000103253:QQ</li>
+        <li>Router | NAS | Windows</li>
+        <li>http://nas.iqihs.cc</li>
+      </ul>
+      <div class="mask"></div>
+      <div class="close"></div>
+    </div>
+    <div class="dragSelect"></div>
+    <div class="contextmenu">
+      <div class="header">Welcome</div>
+      <ul>
+        <li data-value="create"><img src="images/add.png" alt="#">Create file</li>
+        <li data-value="cancel"><img src="images/cancel.png" alt="#">Cancel</li>
+        <li data-value="edit"><img src="images/edit.png" alt="#">Edit file</li>
+        <li data-value="refresh"><img src="images/refresh.png" alt="#">Refresh</li>
+        <li data-value="trash"><img src="images/trash.png" alt="#">Delete file</li>
+      </ul>
+    </div>
+    <div class="dialog">
+      <div class="cont">
+        <input type="text" placeholder="Title Name">
+        <input type="text" placeholder="Images URL">
+        <input type="text" placeholder="Address URL">
+        <span>Confirm</span>
+        <span>Cancel</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/tools.js"></script>
+  <script src="js/tween.js"></script>
+  <script src="js/requestAnimate.js"></script>
+  <script src="js/startMove.js"></script>
+  <script src="js/object.js"></script>
+  <script src="js/nprogress.js"></script>
+  <script src="js/index.js"></script>
+  
+  <!-- Lantern -->
+
+  <script src="js/velocity.min.js"></script>
+  <script src="js/lantern.js"></script>
+</body>
+
+</html>
